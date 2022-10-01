@@ -25,7 +25,8 @@
 
 	<div class="container">
 
-		<h1 style="background-color: springgreen;">CUSTOMER RELATIONSHIP MANAGEMENT</h1>
+		<h1 style="background-color: springgreen;">CUSTOMER RELATIONSHIP
+			MANAGEMENT</h1>
 		<hr>
 
 
@@ -58,13 +59,13 @@
 	</div>
 
 	<script type="text/javascript" nonce="">
-			// <![CDATA[
-			document.body.onload = function() {
-				document.body.offsetHeight;
-				window.print()
-			};
-			// ]]>
-		</script>
+		// <![CDATA[
+		document.body.onload = function() {
+			document.body.offsetHeight;
+			window.print()
+		};
+		// ]]>
+	</script>
 
 </body>
 </html>

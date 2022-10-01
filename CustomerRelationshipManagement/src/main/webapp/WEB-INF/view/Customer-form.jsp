@@ -23,12 +23,14 @@
 
 	<div class="container">
 
-		<h1 style= "background-color:springgreen; color:white;">CUSTOMER RELATIONSHIP MANAGEMENT</h1>
+		<h1 style="background-color: springgreen; color: white;">CUSTOMER
+			RELATIONSHIP MANAGEMENT</h1>
 		<hr>
 
 		<p class="h4 mb-4">Save Customer</p>
 
-		<form action="/CustomerRelationshipManagement/customer/save" method="POST">
+		<form action="/CustomerRelationshipManagement/customer/save"
+			method="POST">
 
 			<!-- Add hidden form field to handle update -->
 			<input type="hidden" name="id" value="${Customer.id}" />
@@ -56,14 +58,14 @@
 
 
 			</div>
-			
+
 			<button type="submit" class="btn btn-info col-2">Save</button>
 
 		</form>
 
 		<hr>
-		<a href="/CustomerRelationshipManagement/customer/list">Back to Customers
-			List</a>
+		<a href="/CustomerRelationshipManagement/customer/list">Back to
+			Customers List</a>
 
 	</div>
 </body>
